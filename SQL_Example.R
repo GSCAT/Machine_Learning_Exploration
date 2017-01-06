@@ -12,3 +12,5 @@ library(RCurl)
 my_connect <- odbcConnect(dsn= "IP EDWP", uid= my_uid, pwd= my_pwd)
 # sqlTables(my_connect, catalog = "EDWP", tableName  = "tables")
 sqlQuery(my_connect, query = "SELECT  * from dbc.dbcinfo;")
+
+ z <-  2+2 
