@@ -14,3 +14,7 @@ my_connect <- odbcConnect(dsn= "IP EDWP", uid= my_uid, pwd= my_pwd)
 sqlQuery(my_connect, query = "SELECT  * from dbc.dbcinfo;")
 
  z <-  2+2 
+
+ 
+ abc <- 50
+ 
