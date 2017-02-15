@@ -43,3 +43,5 @@ corrplot(cor(dat),method = "circle")
 
 model1 = lm(Units.count ~  Impressions+Product.Page.Views   + SourceA + SourceB  + Avg.Shipping.Price    , data = dat )
 summary(model1)
+
+# one more change by Viral
