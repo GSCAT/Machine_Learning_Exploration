@@ -5,6 +5,7 @@ library(tidyr)
 library(RODBC)
 library(rChoiceDialogs)
 
+
 # Read in passwords ----
 my_uid <- read_lines("C:\\Users\\Ke2l8b1\\Documents\\my_uid.txt")
 my_pwd <- read_lines("C:\\Users\\Ke2l8b1\\Documents\\my_pwd.txt")
