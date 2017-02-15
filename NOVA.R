@@ -4,7 +4,7 @@ library(readr)
 library(tidyr)
 library(RODBC)
 library(rChoiceDialogs)
-# adding comments
+
 
 # Read in passwords ----
 my_uid <- read_lines("C:\\Users\\Ke2l8b1\\Documents\\my_uid.txt")
