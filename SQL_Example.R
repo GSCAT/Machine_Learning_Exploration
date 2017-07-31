@@ -8,6 +8,7 @@ library(rChoiceDialogs)
 library(lubridate)
 library(RCurl)
 
+# This is ML fun! 
 # Create RODBC connection---- 
 my_connect <- odbcConnect(dsn= "IP EDWP", uid= my_uid, pwd= my_pwd)
 # sqlTables(my_connect, catalog = "EDWP", tableName  = "tables")
